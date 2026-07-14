@@ -1,6 +1,7 @@
 const mongodb = require("../data/database");
 const { ObjectId } = require("mongodb");
-
+const dns = require("dns");
+dns.setServers(["1.1.1.1", "8.8.8.8"]);
 const getAll = async (req, res) => {
   try {
     const db = mongodb.getDatabase();
