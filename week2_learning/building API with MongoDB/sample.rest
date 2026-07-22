@@ -1,0 +1,22 @@
+POST http://localhost:5000/personnel
+Content-Type: application/json
+
+{
+  "firstname": "John",
+  "lastname": "Doe"
+}
+
+
+POST http://localhost:5000/personnel
+Content-Type: application/json
+
+{
+  "firstname": "Medina",
+  "lastname": "MBEDI"
+}
+
+
+
+
+
+GET http://localhost:5000/personnel
