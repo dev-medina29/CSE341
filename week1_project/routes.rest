@@ -37,3 +37,18 @@ Content-Type: application/json
 
 ### Delete one contact
 DELETE http://localhost:2909/contacts/6a5ffe64949259ec1ccdd0e9
+
+### using render
+GET https://cse341-week1-ot1d.onrender.com/contacts
+
+### using render
+POST https://cse341-week1-ot1d.onrender.com/contacts
+Content-Type: application/json
+
+{
+  "firstName": "MANGANGA - MBEDI",
+  "lastName": "medi - veniel",
+  "email": "venie@gmail.com",
+  "favoriteColor": "Black",
+  "birthday": "2002-09-29"
+}
