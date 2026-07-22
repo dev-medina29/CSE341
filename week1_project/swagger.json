@@ -7,7 +7,7 @@
   },
   "host": "cse341-week1-ot1d.onrender.com",
   "basePath": "/",
-  "schemes": ["https", "http"],
+  "schemes": ["https"],
   "paths": {
     "/": {
       "get": {
